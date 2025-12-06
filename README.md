@@ -12,7 +12,6 @@ Bu çalışma, bağırsak paraziti yumurtalarının mikroskop görüntülerinden
 
 ## İçindekiler
 
-- [Motivasyon](#motivasyon)
 - [Veri Kümesi](#veri-kümesi)
 - [Metodoloji](#metodoloji)
 - [Kurulum](#kurulum)
@@ -22,23 +21,6 @@ Bu çalışma, bağırsak paraziti yumurtalarının mikroskop görüntülerinden
 - [Referanslar](#referanslar)
 
 ---
-
-## Motivasyon
-
-Bağırsak parazitleri, dünya genelinde önemli bir halk sağlığı sorunu oluşturmaktadır. Dünya Sağlık Örgütü verilerine göre dünya nüfusunun yaklaşık %24'ü (1.5 milyar insan) toprak kaynaklı helmint (STH) ile enfektedir. Geleneksel mikroskobik inceleme yöntemleri:
-
-- Düşük verimlilik
-- Uzman bağımlılığı
-- Yüksek iş yükü
-
-gibi sorunlarla karşı karşıyadır. Bu çalışma, yapay zeka tabanlı otomatik tespit sistemleri ile bu sorunlara çözüm sunmaktadır.
-
-### Bilimsel Katkı
-
-- **Füzyon Yaklaşımı**: Derin öğrenme (ViT-FPN destekli YOLO11m) ve makine öğrenmesi sınıflayıcılarının çıktılarının birleştirilmesi
-- **Yeni Performans Standardı**: Chula-ParasiteEgg-11 veri kümesinde literatürdeki en yüksek F1 skoru (%99.53) ve mAP (%95.62)
-- **Kaynak Verimliliği**: Düşük kaynaklı ortamlarda hızlı ve güvenilir tanı
-
 ---
 
 ## Veri Kümesi
@@ -326,21 +308,3 @@ parasite-egg-classification/
 }
 ```
 
-### İlgili Çalışmalar
-
-- Xu et al. (2024) - YAC-Net
-- Rajasekar et al. (2023) - YOLOv8
-- AlDahoul et al. (2023) - CoAtNet
-- Tureckova et al. (2022) - TOOD
-
----
-
-## Teşekkür
-
-Bu çalışma TÜBİTAK 2209-A Üniversite Öğrencileri Araştırma Destekleme Programı (Başvuru No: 1919B012466699) kapsamında desteklenmiştir.
-
----
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
